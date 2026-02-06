@@ -17,6 +17,11 @@ pip install -r requirements.txt
 cp ../.env.example .env
 ```
 
+You can also copy the sample file at repo root:
+```bash
+cp ../.env.sample .env
+```
+
 ### PostgreSQL
 
 1. Install PostgreSQL locally.
@@ -63,6 +68,14 @@ cd frontend
 npm install
 npm run dev
 ```
+
+## One-Command Dev Script
+
+From the repo root, run:
+```bash
+./scripts/dev.sh
+```
+This starts both the FastAPI server and the Vite frontend.
 
 ## Tests
 
